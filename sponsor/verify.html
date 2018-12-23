@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verify-form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <div class="verify_Background_image clearfix">
+        
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-6 col-lg-6 col-md-6 col-xs clearfix">
+                    <form method="POST" action="form-handler" onsubmit="return validate();" name="Refer1">
+                        <p class="verify_heading">Verify your details</p>
+                        <table class="table table-condensed verify_table">
+
+                            <tbody class="verify_table-input">
+                                <tr>
+                                    <td class="verify_Input_row"><label for="usr">Name*</label></td>
+
+                                    <td class="verify_top_row "><input type="text"
+                                            class="form-control verify_transparent-input" id="First" placeholder="First"></td>
+                                    <td class="verify_top_row">
+                                        <input type="text" class="form-control verify_transparent-input" id="Middle"
+                                            placeholder="Middle"></td>
+                                    <td class="verify_top_row">
+                                        <input type="text" class="form-control verify_transparent-input" id="Last" placeholder="Last"></td>
+
+                                </tr>
+                                <tr>
+                                    <td class="verify_Input_row"><label for="usr">Email</label></td>
+
+                                    <td colspan="3"><input type="text" class="form-control verify_transparent-input" id="email"></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class="verify_Input_row"><label for="usr">Contact*</label></td>
+
+                                    <td colspan="3"><input type="text" class="form-control verify_transparent-input" id="mob"></td>
+
+                                </tr>
+                                <tr>
+                                    <td class="verify_Input_row"><label for="usr">Message*</label></td>
+
+                                    <td colspan="3"><input type="text" class="form-control verify_transparent-input" id="Msg"></td>
+
+                                </tr>
+                                <tr>
+                                    <td class="verify_Input_row"><label for="usr">Identity proof</label></td>
+
+                                    <td rowspan="3" colspan="3"><input type="radio" class="verify-radio"  id="Msg">Military Proof
+                                      <input type="radio"  class="verify-radio" id="Msg">Id Proof
+
+                                      
+                                    </td>
+                                    
+                                    
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                       
+                        <input type="file" class="upload-button">
+                        <button type="submit" class="btn btn-default verify-btn">Verify</button>
+                    </form>
+
+
+                </div>
+
+</div>
+
+
+
+
+
+
+
+    </div>
+    </div>
+    <nav class="navbar nav_align navbar-bottom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="./assets/img/logo.png" height="90px" width="220px">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav navbar-right nav_list">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="#">Get involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      
+    </nav>
+    <div class="container footer ">
+    <p >Designed by <a href="http://whynine.co/" target="_blank">WhyNine</a> | Built and Maintained by <a href="http://www.foundlay.com "
+        target="_blank">Foundlay</a></p>
+    </div>
+</body>
+
+</html>

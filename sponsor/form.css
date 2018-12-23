@@ -1,0 +1,485 @@
+:root {
+    --main-theme-color: #005999; 
+    --main-heading-font:'Raleway', sans-serif;
+    --main-heading-size:40px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Get invovlved Start*/
+.involved_Background_image
+{
+    background-image: url(./assets/img/background.png);
+    min-height: 80vh;
+    max-height: auto;
+    width: 100%;
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+.involved-align
+{
+    margin-top: 18%;
+    margin-left: 0%;
+    border-right: 3px solid var(--main-theme-color);
+    height: 200px;
+}
+.involved-align h2 
+{
+    text-align: center;
+    font-size: 56px;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+    
+}
+.involved-align p
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.involved-align2 
+{
+    margin-top: 18%;
+    margin-left: 0%;
+}
+.involved-align2 h2 
+{
+    text-align: center;
+    font-size: 56px;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+  
+}
+.involved-align2 p
+{
+    text-align: center;
+   
+}
+@media screen and (min-width:320px) and (max-width:930px)
+{
+    
+.involved-align
+{
+    border-bottom: 3px solid var(--main-theme-color);
+    border-right: none;
+    width: 300px;
+   margin-left: 7%;
+   text-align: center;
+
+}
+    .involved-align2
+{
+    text-align: center;
+   margin-top: 10%;
+}
+
+    .involved-align h2 
+{
+    text-align: center;
+    font-size: 56px;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+    
+}
+.involved-align2 h2 
+{
+    text-align: center;
+    
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*get involved end*/
+
+
+
+
+/*Refer Form Page*/
+.Background_image
+{
+    background-image: url(./assets/img/Landing.png);
+    min-height: 80vh;
+    max-height: auto;
+    width: 100%;
+   background-size: cover;
+}
+.nav_align
+{
+    /*position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;*/
+    background-color: var(--main-theme-color);
+}
+.icon-bar
+{
+    background-color: white;
+   
+}
+.nav_list 
+{
+    margin-top: 1.5%;
+}
+ ul li a
+{
+    color: white;
+    font-family: var(--main-heading-font);
+}
+.nav>li>a:focus, .nav>li>a:hover 
+{
+    text-decoration: none;
+    background-color: transparent !important;
+   color: #549CE0;
+}
+.footer
+{
+    margin-top: -1.5%;
+    text-align: center;
+   
+}
+.refer_heading
+{
+    margin-top: 9vh;
+    font-size: 19px;
+   
+    font-family: var(--main-heading-font);
+    font-size: var(--main-heading-size);
+    overflow: hidden;
+}
+.refer_table
+{
+    margin-top: 9vh;
+    
+}
+.refer_table-input tr td
+{
+    border-bottom:1px solid #005999;
+}
+.Input-top-row
+{
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+}
+.Input_row
+{
+    border-right: 1px solid #005999;
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+}
+.transparent-input
+{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+  
+    box-shadow: none;
+}
+.transparent-input:focus{
+    border-color:none;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.refer-btn
+{
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(0,0,0,0);
+        margin-left: 1%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        border: 1px solid var(--main-theme-color);
+}
+/*Refer form media query*/
+@media screen and (min-width:320px) and (max-width:787px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    .refer_heading{
+        margin-top: 0vh;
+    }
+    .refer_table
+{
+    margin-top: 0vh;
+}
+.refer-btn
+{
+    text-align: center;
+    margin-left: 40%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+}
+/*Refer Form Page End*/
+/*Verify form */
+.verify_Background_image
+{
+    background-image: url(./assets/img/Landing.png);
+    min-height: 80vh;
+    max-height: auto;
+    width: 100%;
+   background-size: cover;
+}
+.verify_heading
+{
+    margin-top: 9vh;
+    font-size: 19px;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+    font-size: var(--main-heading-size);
+    overflow: hidden;
+}
+.verify_table
+{
+    margin-top: 7vh;
+    
+}
+.verify_table-input tr td
+{
+    border-bottom:1px solid #005999;
+    -moz-border-bottom-colors: 1px solid #005999;
+}
+.verify_top_row
+{
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+}
+.verify_Input_row
+{
+    border-right: 1px solid #005999;
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+}
+.verify_transparent-input
+{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+  
+    box-shadow: none;
+}
+.verify_transparent-input:focus{
+    border-color:none;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.verify_refer-btn
+{
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(0,0,0,0);
+        margin-left: 1%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        border: 1px solid var(--main-theme-color);
+}
+.verify-radio
+{
+    font-family: var(--main-heading-font);
+    
+}
+.verify-btn
+{
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(0,0,0,0);
+        margin-left: 2%;
+        margin-top: 1%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        border: 1px solid var(--main-theme-color);
+}
+
+@media screen and (min-width:320px) and(max-width:787px)
+{
+    .verify_table
+    {
+        margin-top: 0vh;
+     
+        
+    }
+
+    .verify_heading
+    {
+        margin-top: 5vh;
+        font-size: 13px;
+        color: var(--main-theme-color);
+        font-family: var(--main-heading-font);
+        font-size: var(--main-heading-size);
+        overflow: hidden;
+    }
+  
+    
+
+}
+/*verify form end*/
+
+/*contact us form*/
+.contact_Background_image
+{
+    background-image: url(./assets/img/Landing.png);
+    min-height: 80vh;
+    max-height: auto;
+    width: 100%;
+   background-size: cover;
+}
+.contact_heading
+{
+    margin-top: 9vh;
+    font-size: 19px;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+    font-size: var(--main-heading-size);
+    overflow: hidden;
+}
+.contact_table
+{
+    margin-top: 7vh;
+    
+}
+.contact_table-input tr td
+{
+    border-bottom:1px solid #005999;
+    -moz-border-bottom-colors: 1px solid #005999;
+}
+.contact_top_row
+{
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+}
+.contact_Input_row
+{
+    border-right: 1px solid #005999;
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    color: var(--main-theme-color);
+    font-family: var(--main-heading-font);
+}
+.contact_transparent-input
+{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+  
+    box-shadow: none;
+}
+.contact_transparent-input:focus{
+    border-color:none;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.contact_refer-btn
+{
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(0,0,0,0);
+        margin-left: 1%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        border: 1px solid var(--main-theme-color);
+}
+.contact-radio
+{
+    font-family: var(--main-heading-font);
+    
+}
+.contact-btn
+{
+        text-align: center;
+        font-size: 15px;
+        background-color: rgba(0,0,0,0);
+        margin-left: 2%;
+        margin-top: 1%;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        border: 1px solid var(--main-theme-color);
+}
+.contact_border
+{
+    border-left:1px solid  var(--main-theme-color);
+    height:350px;
+    margin-top: 5%;
+}
+.contact-detail p
+{
+    text-align: center;
+   
+}
+.pfirst
+{
+    text-align: center;
+    margin-top: 30%;
+}
+
+@media screen and (min-width:320px) and (max-width:787px)
+{
+    .contact_heading
+    {
+        margin-top: 0px;
+        overflow: hidden;
+    }
+    .contact_table
+{
+    margin-top: 0px;
+    
+}
+.contact_border
+{
+    border-bottom:1px solid  var(--main-theme-color);
+    height:350px;
+    border-right: none;
+}
+}
+/*contact  us end*/
